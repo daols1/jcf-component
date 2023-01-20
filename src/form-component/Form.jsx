@@ -13,12 +13,12 @@ function Form() {
                 <div className="cart-value fl">
                     <p>Cart Value</p>
                     <input type="number" placeholder="e.g 20"/>
-                    <p className="icn"><i className="fa-sharp fa-solid fa-sterling-sign"></i></p>
+                    <p className="icn">₤</p>
                 </div>
                 <div className="delivery-distance fl">
                     <p>Delivery distance</p>
-                    <input type="number" placeholder="e.g "/>
-                    <p className="icn"><i className="fa-solid fa-m"></i></p>
+                    <input type="number" placeholder="e.g 20"/>
+                    <p className="icn">M</p>
                 </div>
                 <div className="amount-of-items fl">
                     <p>Amount of items</p>
@@ -27,7 +27,7 @@ function Form() {
                 </div>
                 <div className="time fl">
                     <p>Time</p>
-                    <input type="datetime"/>
+                    <input type="time"/>
                     <p className="icn"></p>
                 </div>
                 <div className="date fl">

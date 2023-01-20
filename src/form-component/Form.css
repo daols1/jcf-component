@@ -105,6 +105,10 @@ a{
 .icn{
     display: flex;
     align-items: center;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn{
